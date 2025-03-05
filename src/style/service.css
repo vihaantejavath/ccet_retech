@@ -1,0 +1,676 @@
+
+
+.service-container {
+text-align: center;
+padding: 50px;
+font-size: 18px;
+position: relative;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+min-height: 80vh;
+}
+
+
+.chat-box {
+display: flex;
+flex-direction: column;
+align-items: center;
+position: absolute;
+top: 50px;
+right: 20px;
+background-color: #f5f5f5;
+padding: 10px 15px;
+border-radius: 8px;
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.chat-icon {
+width: 40px;
+height: 40px;
+margin-bottom: 5px;
+}
+
+.chat-text {
+font-size: 16px;
+font-weight: bold;
+color: #333;
+}
+
+/* Columns */
+.columns {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 40px;
+width: 90%;
+max-width: 1200px;
+align-items: stretch;
+}
+
+.left-column {
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+}
+
+.plans-button {
+background: linear-gradient(135deg, #a855f7, #38bdf8);
+color: white;
+border: none;
+padding: 12px 40px;
+border-radius: 25px;
+font-size: 16px;
+cursor: pointer;
+transition: 0.3s ease;
+width: 400px;
+text-align: center;
+}
+
+.plans-button:hover {
+opacity: 0.8;
+}
+
+.video-container {
+width: 100%;
+text-align: center;
+}
+
+.video-player {
+width: 80%;
+height: 200px;
+border-radius: 10px;
+}
+
+.video-text {
+font-size: 12px;
+margin-top: 10px;
+color: #555;
+}
+
+
+.right-column {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.big-tile {
+position: relative;
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+overflow: hidden;
+border-radius: 20px;
+}
+
+.big-tile-image {
+width: 100%;
+height: 100%;
+object-fit: cover;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 1;
+}
+
+.text-overlay {
+position: absolute;
+top: 50%;
+left: 70%;
+transform: translate(-50%, -50%);
+text-align: right;
+color: white;
+width: 50%;
+z-index: 2;
+padding: 20px;
+border-radius: 10px;
+}
+
+.text-overlay h2 {
+font-size: 22px;
+font-weight: bold;
+color: white;
+margin-bottom: 10px;
+}
+
+.text-overlay p {
+font-size: 12px;
+color: white;
+line-height: 1.5;
+}
+
+/* Service Highlights Section */
+.service-highlights {
+display: flex; 
+align-items: center;
+justify-content: flex-start; 
+gap: 10px; 
+width: 90%;
+max-width: 1000px;
+margin: 40px auto;
+}
+
+
+.highlight-image {
+display: flex;
+align-items: center;
+justify-content: flex-start;
+}
+
+.highlight-image img {
+width: 80px;
+height: auto;
+}
+
+
+.highlight-text {
+text-align: left;
+flex-grow: 1;
+}
+
+.highlight-text h2 {
+font-size: 22px;
+font-weight: bold;
+color: black;
+margin-bottom: 5px;
+}
+
+.highlight-text p {
+font-size: 14px;
+color: #444;
+line-height: 1.5;
+margin: 0;
+}
+
+.services-box {
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 90%;
+max-width: 1100px;
+margin: 50px auto;
+padding: 20px;
+border: 2px solid #a855f7;
+border-radius: 20px;
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.services-list {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 15px 40px;
+flex: 1;
+}
+
+.service-item {
+display: flex;
+align-items: center;
+gap: 8px;
+}
+
+.service-icon {
+width: 30px;
+height: auto;
+}
+
+.services-buttons {
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+gap: 15px;
+}
+
+
+.go-to-services {
+font-size: 14px;
+color: #38bdf8;
+text-decoration: none;
+transition: color 0.3s ease;
+}
+
+.go-to-services:hover {
+color: #007bff;
+}
+
+.faqs-button {
+background-color: #10b981;
+color: white;
+border: none;
+padding: 12px 30px;
+border-radius: 10px;
+font-size: 16px;
+cursor: pointer;
+transition: 0.3s ease;
+box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+width: 150px;
+}
+
+.faqs-button:hover {
+background-color: #059669;
+}
+
+.stats-grid {
+display: grid;
+grid-template-columns: 1fr 2px 1fr;
+grid-template-rows: 1fr 2px 1fr;
+justify-content: center;
+align-items: center;
+width: 50%;
+max-width: 600px;
+margin: 50px auto;
+text-align: center;
+position: relative;
+}
+
+
+.stats-grid::before,
+.stats-grid::after {
+content: "";
+position: absolute;
+background-color: #0a58ca; 
+}
+
+.stats-grid::before {
+width: 2px;
+height: 100%;
+left: 50%;
+top: 0;
+transform: translateX(-50%);
+}
+
+.stats-grid::after {
+width: 100%;
+height: 2px;
+top: 50%;
+left: 0;
+transform: translateY(-50%);
+}
+
+.stat-item {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-size: 14px;
+font-weight: 600;
+color: #333;
+}
+
+
+.stat-item:nth-child(1) { grid-column: 1 / 2; grid-row: 1 / 2; }
+.stat-item:nth-child(2) { grid-column: 3 / 4; grid-row: 1 / 2; }
+.stat-item:nth-child(3) { grid-column: 1 / 2; grid-row: 3 / 4; }
+.stat-item:nth-child(4) { grid-column: 3 / 4; grid-row: 3 / 4; }
+
+
+.stat-icon {
+width: 40px;
+height: auto;
+margin-bottom: 10px;
+}
+
+.pricing-section {
+display: flex;
+justify-content: center;
+gap: 30px;
+margin-top: 50px;
+}
+
+
+.pricing-card {
+position: relative;
+background: white;
+border-radius: 15px;
+padding: 20px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+width: 300px;
+text-align: center;
+border: 1px solid #ddd;
+transition: 0.3s ease;
+}
+
+.pricing-card:hover {
+box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.price-badge {
+position: absolute;
+top: -15px;
+right: -15px;
+background: #ffebf0;
+color: #d63384;
+font-size: 18px;
+font-weight: bold;
+padding: 10px 15px;
+border-radius: 50%;
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.plan-title {
+font-size: 20px;
+font-weight: bold;
+color: #3b82f6;
+margin-bottom: 5px;
+}
+
+
+.plan-subtitle {
+font-size: 14px;
+color: #555;
+margin-bottom: 15px;
+}
+
+
+.plan-image {
+width: 100%;
+height: 160px;
+border-radius: 10px;
+object-fit: cover;
+margin-bottom: 15px;
+}
+
+
+.plan-description {
+font-size: 14px;
+color: #333;
+line-height: 1.5;
+margin-bottom: 15px;
+}
+
+
+.book-now-button {
+background: #6a5acd;
+color: white;
+border: none;
+padding: 10px 20px;
+border-radius: 8px;
+font-size: 16px;
+cursor: pointer;
+transition: 0.3s ease;
+box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.book-now-button:hover {
+background: #5a4fcf;
+}
+
+.line-paragraph {
+background-color: #f5f2fc;
+text-align: center;
+padding: 15px;
+font-size: 16px;
+color: #5a3e55;
+font-weight: 500;
+border-radius: 5px;
+width: 90%;
+margin: 30px auto;
+}
+
+.feature-section {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 30px;
+width: 90%;
+max-width: 1100px;
+margin: 50px auto;
+}
+
+
+.feature-card {
+display: flex;
+align-items: center;
+background: white;
+border-radius: 15px;
+padding: 20px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+border: 1.5px solid #000000;
+transition: 0.3s ease;
+}
+
+.feature-card:hover {
+box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.feature-image {
+width: 120px;
+height: auto;
+margin-right: 20px;
+border-radius: 10px;
+}
+
+.feature-content {
+flex-grow: 1;
+}
+
+.feature-title {
+font-size: 20px;
+font-weight: bold;
+color: #000;
+margin-bottom: 5px;
+}
+
+
+.feature-description {
+font-size: 14px;
+color: #666;
+line-height: 1.5;
+margin-bottom: 10px;
+}
+
+.read-more {
+font-size: 14px;
+color: #6a5acd;
+text-decoration: none;
+font-weight: bold;
+}
+
+.read-more:hover {
+text-decoration: underline;
+}
+
+.signup-booknow-section {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 40px;
+width: 90%;
+max-width: 1200px;
+margin: 50px auto;
+align-items: center;
+}
+
+.college-signup-card {
+background: white;
+border-radius: 15px;
+padding: 20px;
+border: 2px solid #7b5df9;
+box-shadow: 0 5px 12px rgba(123, 93, 249, 0.3);
+text-align: center;
+position: relative;
+overflow: hidden;
+width: 70%;
+}
+
+.college-banner {
+width: 80%;
+border-radius: 10px;
+margin-bottom: 15px;
+}
+
+.college-content {
+padding: 20px;
+}
+
+.college-text {
+font-size: 20px;
+font-weight: bold;
+color: #6a5acd;
+margin-bottom: 10px;
+text-align: left;
+}
+
+.college-badges {
+display: flex;
+justify-content: right;
+gap: 0px;
+margin-bottom: 15px;
+}
+
+.badge {
+width: 50px;
+height: auto;
+}
+
+/* Sign Up Button */
+.signup-button {
+background: transparent;
+border: 2px solid #6a5acd;
+color: #6a5acd;
+padding: 10px 20px;
+border-radius: 20px;
+font-size: 16px;
+cursor: pointer;
+transition: 0.3s ease;
+}
+
+.signup-button:hover {
+background: #6a5acd;
+color: white;
+}
+
+
+.why-choose-box {
+background: white;
+border-radius: 15px;
+padding: 25px;
+border: 2px solid #7b5df9;
+box-shadow: 0 5px 12px rgba(123, 93, 249, 0.3);
+text-align: left;
+position: relative;
+}
+
+.why-title {
+font-size: 18px;
+font-weight: bold;
+color: #6a5acd;
+margin-bottom: 10px;
+}
+
+.why-list {
+list-style: none;
+padding: 0;
+margin-bottom: 15px;
+}
+
+.why-list li {
+display: flex;
+align-items: center;
+gap: 10px;
+font-size: 14px;
+color: #444;
+margin-bottom: 8px;
+}
+
+.check-icon {
+width: 24px;
+height: auto;
+}
+
+/* Book Now Button */
+.book-now-button {
+background: #6a5acd;
+color: white;
+border: none;
+padding: 12px 30px;
+border-radius: 8px;
+font-size: 16px;
+cursor: pointer;
+transition: 0.3s ease;
+box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.book-now-button:hover {
+background: #5a4fcf;
+}
+/* About Us Section */
+.about-us-section {
+display: grid;
+grid-template-columns: 1fr 1fr; 
+gap: 40px;
+width: 90%;
+max-width: 1200px;
+margin: 50px auto;
+align-items: center;
+}
+
+
+.about-text {
+text-align: left;
+}
+
+.about-header {
+display: flex;
+align-items: center;
+gap: 10px;
+margin-bottom: 10px;
+}
+
+.about-icon {
+width:100px;
+height: auto;
+}
+
+.about-title {
+font-size: 22px;
+font-weight: bold;
+color: #3b3b3b;
+}
+
+.about-welcome {
+font-size: 18px;
+font-weight: bold;
+color: #6a5acd;
+margin-bottom: 10px;
+}
+
+.about-description {
+font-size: 14px;
+color: #444;
+line-height: 1.5;
+}
+
+.about-image img {
+width: 100%;
+max-width: 400px;
+border-radius: 10px;
+}
+
+.plan-inquiry {
+text-align: center;
+margin: 30px auto;
+font-size: 16px;
+color: #5a3e55;
+font-weight: 500;
+}
+
+
+.plan-question {
+font-weight: bold;
+color: #3b3b3b;
+font-size: 18px;
+}
+
+.contact-link {
+font-weight: bold;
+color: #6a5acd;
+text-decoration: none;
+transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+text-decoration: underline;
+color: #4a3bb3;
+}
