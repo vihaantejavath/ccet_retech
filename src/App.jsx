@@ -4,15 +4,16 @@ import Footer from './components/Footer'
 import Landinpage from './components/Landingpage'
 // import Landingpagefooter from './components/Landingpagefooter'
 import './App.css'
+import Testimonial from './components/testimonial'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <Navbar/>
-      <Landinpage/>
-      <Footer/>
+
+      <Testimonial/>
+
      
       {/* <Landingpagefooter/> */}
 

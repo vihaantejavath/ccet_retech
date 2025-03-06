@@ -1,0 +1,252 @@
+
+.testimonial-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+
+.testimonial-header {
+    text-align: center;
+    margin-top: 80px;
+    position: relative;
+}
+
+.testimonial-title {
+    font-size: 60px;
+    font-weight: bold;
+    color: #111;
+}
+
+
+.underline {
+    width: 120px;
+    height: 4px;
+    background-color: #555;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.testimonial-buttons {
+    position: absolute;
+    right: 5%;
+    top: 60%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.testimonial-btn {
+    background: #836FFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+    width: 150px;
+    text-align: center;
+}
+
+
+.dark-btn {
+    background: #1A083D;
+}
+
+.testimonial-btn:hover {
+    opacity: 0.8;
+}
+
+.top-reviews-container {
+    position: relative;
+    top: 100%;
+    left: 10%;
+
+}
+
+
+.top-reviews {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-top: 50px;
+}
+
+.review-icon {
+    width: 75px;
+    height: auto;
+}
+
+.left-review-icon {
+    margin-right: 5px;
+}
+.right-review-icon {
+    margin-left: 5px;
+}
+
+.review-heading {
+    font-size: 28px;
+    font-weight: bold;
+    color: #111;
+}
+
+
+.review-subtext {
+    text-align: left;
+    font-size: 16px;
+    color: #444;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.student-subtext {
+    text-align: left;
+    font-size: 16px;
+    color: #999;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+
+.testimonial-scroll-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.testimonial-cards {
+    display: flex;
+    gap: 20px;
+}
+
+.testimonial-card {
+    width: 280px;
+    min-width: 280px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.testimonial-image {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+
+.testimonial-review {
+    font-size: 14px;
+    color: #333;
+    font-style: italic;
+    text-align: center;
+    line-height: 1.6;
+    max-width: 230px;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    margin-bottom: 15px;
+}
+
+.testimonial-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+}
+
+/* Name & Role - Left Side */
+.testimonial-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.testimonial-name {
+    font-weight: bold;
+    font-size: 14px;
+    color: #222;
+}
+
+.testimonial-role {
+    font-size: 12px;
+    color: #777;
+}
+
+/* Rating - Right Side */
+.rating {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+.rating-icon {
+    width: 16px;
+    height: auto;
+}
+
+.rating-score {
+    font-weight: bold;
+    color: #222;
+    font-size: 14px;
+}
+
+/* Testimonial Image Section */
+.testimonial-image-section {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px; /* Spacing from the previous section */
+}
+
+/* Full-Width Image */
+.testimonial-full-image {
+    width: 100%;
+    max-width: 1200px; /* Adjust based on your layout */
+    height: auto;
+    object-fit: cover;
+}
+
+/* Career Journey Section */
+.career-journey-container {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.career-journey-text {
+    font-size: 20px;
+    color: #777;
+    font-weight: 500;
+}
+
+.career-journey-underline {
+    width: 150px;
+    height: 4px;
+    background-color: #555;
+    margin: 10px auto;
+    border-radius: 5px;
+}
