@@ -1,27 +1,26 @@
-/* Ensure Blog Image Stays on the Right */
+
 .blog-container {
 display: flex;
-justify-content: flex-end; /* Keeps image on the right */
+justify-content: flex-end;
 align-items: center;
-height: 90px; /* Fixed height */
+height: 90px;
 padding-right: 50px;
 position: relative;
 }
 
-/* Right Side Image */
+
 .blog-image {
-max-width: 40%; /* Image remains at 40% width */
+max-width: 40%;
 height: auto;
 position: absolute;
 }
 
-/* Blog Subscription Section - Centered */
 .blog-subscription-wrapper {
 width: 100%;
 display: flex;
-justify-content: center; /* Centers the subscription box */
+justify-content: center;
 align-items: center;
-margin-top: 0px; /* Adjust spacing */
+margin-top: 0px;
 }
 
 /* Subscription Container */
@@ -88,17 +87,16 @@ border-color: #3D1A83;
 /* Blog Section Layout - Centered with Two Columns */
 .blog-section {
 display: flex;
-justify-content: center; /* Centers entire section */
+justify-content: center;
 align-items: flex-start;
 width: 90%;
 max-width: 1200px;
 margin: 0px auto;
-gap: 0px; /* Spacing between left and right */
+gap: 0px; 
 }
 
-/* Left Side - Main Blog Post */
 .blog-left {
-width: 60%; /* Keeps it larger */
+width: 60%; 
 display: flex;
 flex-direction: column;
 align-items: left;
@@ -152,23 +150,23 @@ border-radius: 20px;
 margin-right: 5px;
 }
 
-/* Right Side - Blog Post Thumbnails (3 Rows) */
+
 .blog-right {
-width: 40%; /* Keeps it slightly smaller */
+width: 40%;
 display: flex;
 flex-direction: column;
 gap: 10px;
 }
 
-/* Blog Rows */
+
 .blog-row {
 display: flex;
-align-items: center; /* Aligns rows properly */
+align-items: center; 
 gap: 15px;
 border-radius: 10px;
 }
 
-/* Blog Thumbnail Image */
+
 .blog-thumb {
 width: 200px;
 height: 150px;

@@ -1,26 +1,24 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import "../style/blog.css"; // Import CSS for styling
+import "../style/blog.css";
 
 const Blog = () => {
   return (
     <>
       <Navbar />
 
-      {/* Existing Blog Image Section */}
       <div className="blog-container">
         <img src="/blogimage.png" alt="Blog Section" className="blog-image" />
       </div>
 
-      {/* New Section - Blog Subscription */}
       <div className="blog-subscription-container">
         <h1 className="blog-title">INSIDE CAREER - STORIES AND BLOGS</h1>
         <p className="blog-subtext">
           Subscribe to learn about new career options, pathways, and updates.
         </p>
 
-        {/* Subscription Box */}
+
         <div className="subscribe-box">
           <input
             type="email"
@@ -31,10 +29,9 @@ const Blog = () => {
         </div>
       </div>
 
-      {/* Blog Section Container */}
+
       <div className="blog-section">
-        
-        {/* Left Side - Large Blog Post */}
+
         <div className="blog-left">
           <img src="/blog1.png" alt="Main Blog Post" className="blog-main-image" />
           <div className="blog-main-content">
@@ -52,7 +49,7 @@ const Blog = () => {
           </div>
         </div>
 
-        {/* Right Side - Three Smaller Blog Posts */}
+
         <div className="blog-right">
           <div className="blog-row">
             <img src="/blog2.png" alt="Blog 1" className="blog-thumb" />
@@ -104,7 +101,7 @@ const Blog = () => {
           </div>
         </div>
       </div>
-        {/* ======================== New Section - Three Tiles Side by Side ======================== */}
+      
       <div className="blog-card-section">
         <div className="blog-card">
           <img src="/blog5.png" alt="Software Engineer" className="blog-card-img" />
@@ -139,7 +136,7 @@ const Blog = () => {
           <a href="#" className="blog-read-more">Read More</a>
         </div>
       </div>
-      {/* ==================================================================================== */}
+
       <div className="wide-blog-container">
         <img src="/careercoun.png" alt="Career Counseling" className="wide-blog-image" />
         <div className="wide-blog-content">
@@ -159,8 +156,6 @@ const Blog = () => {
           <a href="#" className="wide-blog-link">↗</a>
         </div>
       </div>
-      {/* ==================================================================================== */}
-        {/* ======================== New Section - Another Three Tiles Side by Side ======================== */}
 <div className="blog-card-section">
     <div className="blog-card">
         <img src="/blog8.png" alt="Pilot" className="blog-card-img" />
@@ -195,7 +190,7 @@ const Blog = () => {
         <a href="#" className="blog-read-more">Read More</a>
     </div>
 </div>
-{/* ==================================================================================== */}
+
 <div className="wide-blog-container">
         <img src="/vfx.png" alt="Career Counseling" className="wide-blog-image" />
         <div className="wide-blog-content">
@@ -216,9 +211,9 @@ const Blog = () => {
           <a href="#" className="wide-blog-link">↗</a>
         </div>
       </div>
-        {/* ======================== New Section - Expert Counseling ======================== */}
+
 <div className="expert-counseling-section">
-    {/* Left Content */}
+
     <div className="expert-counseling-left">
         <img src="/targeticon.png" alt="Target Icon" className="expert-icon" />
         <div className="expert-text">
@@ -232,7 +227,6 @@ const Blog = () => {
         </div>
     </div>
 
-    {/* Right Content */}
     <div className="expert-counseling-right">
         <img src="/target2icon.png" alt="Members Icon" className="expert2-icon" />
         <h3>Members & Collaborators</h3>
@@ -240,7 +234,6 @@ const Blog = () => {
         <button className="sign-up-button">Sign up now!</button>
     </div>
 </div>
-{/* ==================================================================================== */}
 
       <Footer />
     </>
