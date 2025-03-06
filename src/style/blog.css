@@ -1,0 +1,323 @@
+/* Ensure Blog Image Stays on the Right */
+.blog-container {
+display: flex;
+justify-content: flex-end; /* Keeps image on the right */
+align-items: center;
+height: 90px; /* Fixed height */
+padding-right: 50px;
+position: relative;
+}
+
+/* Right Side Image */
+.blog-image {
+max-width: 40%; /* Image remains at 40% width */
+height: auto;
+position: absolute;
+}
+
+/* Blog Subscription Section - Centered */
+.blog-subscription-wrapper {
+width: 100%;
+display: flex;
+justify-content: center; /* Centers the subscription box */
+align-items: center;
+margin-top: 0px; /* Adjust spacing */
+}
+
+/* Subscription Container */
+.blog-subscription-container {
+text-align: center;
+width: 100%;
+max-width: 800px;
+padding: 50px 0;
+margin: auto;
+}
+
+/* Blog Title */
+.blog-title {
+font-size: 28px;
+font-weight: bold;
+color: #111;
+}
+
+/* Blog Subtext */
+.blog-subtext {
+font-size: 16px;
+color: #666;
+margin-bottom: 30px;
+}
+
+/* Subscription Box */
+.subscribe-box {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+margin-top: 20px;
+}
+
+/* Subscription Input */
+.subscribe-input {
+flex: 1;
+max-width: 400px;
+padding: 10px;
+border: none;
+outline: 1px solid #ccc;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* Subscribe Button */
+.subscribe-button {
+background-color: #1A083D;
+color: white;
+padding: 10px 20px;
+border: 1px solid #1A083D;
+border-radius: 5px;
+font-size: 16px;
+cursor: pointer;
+transition: 0.3s ease;
+}
+
+/* Subscribe Button Hover */
+.subscribe-button:hover {
+background-color: #3D1A83;
+border-color: #3D1A83;
+}
+
+/* Blog Section Layout - Centered with Two Columns */
+.blog-section {
+display: flex;
+justify-content: center; /* Centers entire section */
+align-items: flex-start;
+width: 90%;
+max-width: 1200px;
+margin: 0px auto;
+gap: 0px; /* Spacing between left and right */
+}
+
+/* Left Side - Main Blog Post */
+.blog-left {
+width: 60%; /* Keeps it larger */
+display: flex;
+flex-direction: column;
+align-items: left;
+}
+
+/* Large Image */
+.blog-main-image {
+width: 80%;
+border-radius: 10px;
+}
+
+/* Blog Content */
+.blog-main-content {
+margin-top: 15px;
+}
+
+/* Blog Author */
+.blog-author {
+font-size: 14px;
+color: #777;
+margin-bottom: 5px;
+}
+
+/* Blog Title */
+.blog-title {
+font-size: 22px;
+font-weight: bold;
+color: #111;
+}
+
+/* Blog Description */
+.blog-description {
+font-size: 16px;
+color: #444;
+margin-top: 5px;
+line-height: 1.5;
+}
+
+/* Tags */
+.blog-tags {
+margin-top: 10px;
+}
+
+.blog-tag {
+display: inline-block;
+background-color: #eee;
+color: #333;
+font-size: 12px;
+padding: 5px 10px;
+border-radius: 20px;
+margin-right: 5px;
+}
+
+/* Right Side - Blog Post Thumbnails (3 Rows) */
+.blog-right {
+width: 40%; /* Keeps it slightly smaller */
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+
+/* Blog Rows */
+.blog-row {
+display: flex;
+align-items: center; /* Aligns rows properly */
+gap: 15px;
+border-radius: 10px;
+}
+
+/* Blog Thumbnail Image */
+.blog-thumb {
+width: 200px;
+height: 150px;
+border-radius: 10px;
+object-fit: cover;
+}
+
+/* Blog Text */
+.blog-text {
+flex: 2;
+}
+
+/* Blog Headline */
+.blog-heading {
+font-size: 18px;
+font-weight: bold;
+color: #222;
+margin-bottom: 5px;
+}
+
+/* Blog Snippet */
+.blog-snippet {
+font-size: 14px;
+color: #555;
+line-height: 1.4;
+}
+
+
+.blog-card-section {
+justify-content: center;
+width: 80%;
+display: flex;
+justify-content: space-between;
+gap: 20px;
+height: 250px;
+margin-top: 50px;
+margin-left: 100px;
+margin-bottom: 200px;
+}
+
+.blog-card {
+width: 30%;
+background: #fff;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+padding: 20px;
+}
+
+.blog-card-img {
+width: 100%;
+border-radius: 8px;
+}
+
+.blog-read-more {
+color: #6a5acd;
+text-decoration: none;
+font-weight: bold;
+}
+
+
+.wide-blog-container {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    margin-left: 50px;
+    padding: 20px;
+}
+
+.wide-blog-image {
+width: 40%;
+border-radius: 8px;
+}
+
+.wide-blog-content {
+width: 40%;
+padding-left: 20px;
+}
+
+.wide-blog-title {
+font-size: 22px;
+font-weight: bold;
+}
+
+.wide-blog-description {
+color: #666;
+}
+
+.wide-blog-link {
+font-size: 24px;
+text-decoration: none;
+color: #6a5acd;
+font-weight: bold;
+}
+.expert-counseling-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.expert-counseling-left {
+    display: flex;
+    align-items: center;
+    width: 65%;
+}
+
+.expert-icon {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.expert-text h2 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.expert-text p {
+    color: #666;
+}
+
+.expert-counseling-right {
+    text-align: center;
+    width: 30%;
+}
+.expert2-icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+
+.sign-up-button {
+    background: #2e186a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sign-up-button:hover {
+    background: #1b0e45;
+}
